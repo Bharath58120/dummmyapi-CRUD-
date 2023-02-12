@@ -5,21 +5,18 @@
   width: 50%;
   background-color: #dddddd;
 }
-
 #table {
   border-style: solid;
   padding: 20px;
   margin: auto;
   width: 90%;
 }
-
 table {
   border: 1px solid;
   border-collapse: collapse;
   margin-left: 10%;
   width: 80%;
 }
-
 td,
 th {
   border: 2px solid;
@@ -30,7 +27,6 @@ tr:nth-child(even),
 table.list thead > tr {
   background-color: #dddddd;
 }
-
 input[type="text"],
 input[type="number"] {
   width: 100%;
@@ -41,9 +37,7 @@ input[type="number"] {
   border-radius: 4px;
   box-sizing: border-box;
 }
-
-button[type="submit"],
-button[type="update"] {
+button[type="submit"] {
   width: 100px;
   height: 50px;
   background-color: red;
@@ -64,7 +58,6 @@ button[type="update"] {
   margin-left: 25%;
   border-color: black;
 }
-
 #search-bar input[type="text"] {
   border: 2px solid;
 }
@@ -98,9 +91,6 @@ button[type="update"] {
 #formdata {
   opacity: 0%;
 }
-#table-data #fname {
-  display: none;
-}
-#table-data .save {
+#table-data #abc {
   display: none;
 }
